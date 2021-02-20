@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1area_opt" LaunchPart="xc7a35tcpg236-1" LaunchTime="1610111121">
+  <File Type="PA-TCL" Name="neuronal_cell.tcl"/>
+  <File Type="REPORTS-TCL" Name="neuronal_cell_reports.tcl"/>
+  <File Type="RDS-RDS" Name="neuronal_cell.vds"/>
+  <File Type="RDS-UTIL" Name="neuronal_cell_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="neuronal_cell_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="neuronal_cell.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/input_detector.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/input_detector.vhd"/>
+        <Attr Name="ImportTime" Val="1603623257"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/states_debug.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/states_debug.vhd"/>
+        <Attr Name="ImportTime" Val="1599041301"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/uart.vhd"/>
+        <Attr Name="ImportTime" Val="1598884771"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/neuronal_cell.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/neuronal_cell.vhd"/>
+        <Attr Name="ImportTime" Val="1608727099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="neuronal_cell"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constrains basys3/single_cell.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/constrains basys3/single_cell.xdc"/>
+        <Attr Name="ImportTime" Val="1601818284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_AreaOptimized_high" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design">
+      <Option Id="ControlSetOptThreshold">1</Option>
+      <Option Id="Directive">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

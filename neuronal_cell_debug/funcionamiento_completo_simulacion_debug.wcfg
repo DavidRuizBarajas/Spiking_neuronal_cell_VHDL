@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="funcionamiento_completo_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="funcionamiento_completo_TB" />
+            <top_module name="states_debug" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4683268280000fs"></ZoomStartTime>
+      <ZoomEndTime time="7467268280001fs"></ZoomEndTime>
+      <Cursor1Time time="5426000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="221"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/funcionamiento_completo_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/funcionamiento_completo_TB/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">PC-UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/funcionamiento_completo_TB/rx_pc" type="logic">
+         <obj_property name="ElementShortName">rx_pc</obj_property>
+         <obj_property name="ObjectShortName">rx_pc</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/rx_error_pc" type="logic">
+         <obj_property name="ElementShortName">rx_error_pc</obj_property>
+         <obj_property name="ObjectShortName">rx_error_pc</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/rx_busy_pc" type="logic">
+         <obj_property name="ElementShortName">rx_busy_pc</obj_property>
+         <obj_property name="ObjectShortName">rx_busy_pc</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/rx_done_pc" type="logic">
+         <obj_property name="ElementShortName">rx_done_pc</obj_property>
+         <obj_property name="ObjectShortName">rx_done_pc</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/rx_data_pc" type="array">
+         <obj_property name="ElementShortName">rx_data_pc[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data_pc[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group82" type="group">
+         <obj_property name="label">TX PC SENALES</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/funcionamiento_completo_TB/tx_pc" type="logic">
+            <obj_property name="ElementShortName">tx_pc</obj_property>
+            <obj_property name="ObjectShortName">tx_pc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/tx_enable_pc" type="logic">
+            <obj_property name="ElementShortName">tx_enable_pc</obj_property>
+            <obj_property name="ObjectShortName">tx_enable_pc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/tx_data_pc" type="array">
+            <obj_property name="ElementShortName">tx_data_pc[7:0]</obj_property>
+            <obj_property name="ObjectShortName">tx_data_pc[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/vector_w" type="array">
+            <obj_property name="ElementShortName">vector_w[15:0]</obj_property>
+            <obj_property name="ObjectShortName">vector_w[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/dato_w1" type="array">
+            <obj_property name="ElementShortName">dato_w1[7:0]</obj_property>
+            <obj_property name="ObjectShortName">dato_w1[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/dato_w2" type="array">
+            <obj_property name="ElementShortName">dato_w2[7:0]</obj_property>
+            <obj_property name="ObjectShortName">dato_w2[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/dato_w" type="other">
+            <obj_property name="ElementShortName">dato_w</obj_property>
+            <obj_property name="ObjectShortName">dato_w</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/tx_busy_pc" type="logic">
+            <obj_property name="ElementShortName">tx_busy_pc</obj_property>
+            <obj_property name="ObjectShortName">tx_busy_pc</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group68" type="group">
+      <obj_property name="label">celda neuronal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group73" type="group">
+         <obj_property name="label">control signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/funcionamiento_completo_TB/new_instruction" type="logic">
+            <obj_property name="ElementShortName">new_instruction</obj_property>
+            <obj_property name="ObjectShortName">new_instruction</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/stop" type="logic">
+            <obj_property name="ElementShortName">stop</obj_property>
+            <obj_property name="ObjectShortName">stop</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/setting" type="logic">
+            <obj_property name="ElementShortName">setting</obj_property>
+            <obj_property name="ObjectShortName">setting</obj_property>
+            <obj_property name="CustomSignalColor">#FF0080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/soft_rst_b" type="logic">
+            <obj_property name="ElementShortName">soft_rst_b</obj_property>
+            <obj_property name="ObjectShortName">soft_rst_b</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/estado_debug" type="other">
+            <obj_property name="ElementShortName">estado_debug</obj_property>
+            <obj_property name="ObjectShortName">estado_debug</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/holder_p_debug" type="other">
+            <obj_property name="ElementShortName">holder_p_debug</obj_property>
+            <obj_property name="ObjectShortName">holder_p_debug</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/leak_p_debug" type="other">
+            <obj_property name="ElementShortName">leak_p_debug</obj_property>
+            <obj_property name="ObjectShortName">leak_p_debug</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group77" type="group">
+         <obj_property name="label">procesado de pulsos</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/funcionamiento_completo_TB/spike" type="logic">
+            <obj_property name="ElementShortName">spike</obj_property>
+            <obj_property name="ObjectShortName">spike</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/voltage_debug" type="other">
+            <obj_property name="ElementShortName">voltage_debug</obj_property>
+            <obj_property name="ObjectShortName">voltage_debug</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/input" type="array">
+            <obj_property name="ElementShortName">input[1:0]</obj_property>
+            <obj_property name="ObjectShortName">input[1:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <wvobject fp_name="/funcionamiento_completo_TB/input[1]" type="logic">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+               <obj_property name="CustomSignalColor">#FFA500</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/input[0]" type="logic">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFA500</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/input[1]" type="logic">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/input[0]" type="logic">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/spk_detected_debug" type="array">
+            <obj_property name="ElementShortName">spk_detected_debug[1:0]</obj_property>
+            <obj_property name="ObjectShortName">spk_detected_debug[1:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <wvobject fp_name="/funcionamiento_completo_TB/spk_detected_debug[1]" type="logic">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/spk_detected_debug[0]" type="logic">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/spk_detected_debug[1]" type="logic">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/spk_detected_debug[0]" type="logic">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/detecto_reset" type="array">
+            <obj_property name="ElementShortName">detecto_reset[1:0]</obj_property>
+            <obj_property name="ObjectShortName">detecto_reset[1:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <wvobject fp_name="/funcionamiento_completo_TB/detecto_reset[1]" type="logic">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+               <obj_property name="CustomSignalColor">#800080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/detecto_reset[0]" type="logic">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+               <obj_property name="CustomSignalColor">#800080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/detecto_reset[1]" type="logic">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/funcionamiento_completo_TB/detecto_reset[0]" type="logic">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group75" type="group">
+         <obj_property name="label">comunicacion UART</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/funcionamiento_completo_TB/rx_com" type="logic">
+            <obj_property name="ElementShortName">rx_com</obj_property>
+            <obj_property name="ObjectShortName">rx_com</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/tx_com" type="logic">
+            <obj_property name="ElementShortName">tx_com</obj_property>
+            <obj_property name="ObjectShortName">tx_com</obj_property>
+            <obj_property name="CustomSignalColor">#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/tx_cell" type="logic">
+            <obj_property name="ElementShortName">tx_cell</obj_property>
+            <obj_property name="ObjectShortName">tx_cell</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/r_blocks" type="other">
+            <obj_property name="ElementShortName">r_blocks</obj_property>
+            <obj_property name="ObjectShortName">r_blocks</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/t_blocks" type="other">
+            <obj_property name="ElementShortName">t_blocks</obj_property>
+            <obj_property name="ObjectShortName">t_blocks</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/id_match_debug" type="logic">
+            <obj_property name="ElementShortName">id_match_debug</obj_property>
+            <obj_property name="ObjectShortName">id_match_debug</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/instruction_b_debug" type="array">
+            <obj_property name="ElementShortName">instruction_b_debug[7:0]</obj_property>
+            <obj_property name="ObjectShortName">instruction_b_debug[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/tx_data_debug" type="array">
+            <obj_property name="ElementShortName">tx_data_debug[7:0]</obj_property>
+            <obj_property name="ObjectShortName">tx_data_debug[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/rx_data_debug" type="array">
+            <obj_property name="ElementShortName">rx_data_debug[7:0]</obj_property>
+            <obj_property name="ObjectShortName">rx_data_debug[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/buffer_rx_23" type="array">
+            <obj_property name="ElementShortName">buffer_rx_23[15:0]</obj_property>
+            <obj_property name="ObjectShortName">buffer_rx_23[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/buffer_rx_01" type="array">
+            <obj_property name="ElementShortName">buffer_rx_01[15:0]</obj_property>
+            <obj_property name="ObjectShortName">buffer_rx_01[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/range_err_debug" type="logic">
+            <obj_property name="ElementShortName">range_err_debug</obj_property>
+            <obj_property name="ObjectShortName">range_err_debug</obj_property>
+            <obj_property name="CustomSignalColor">#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/funcionamiento_completo_TB/rx_error_debug" type="logic">
+            <obj_property name="ElementShortName">rx_error_debug</obj_property>
+            <obj_property name="ObjectShortName">rx_error_debug</obj_property>
+            <obj_property name="CustomSignalColor">#800000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group70" type="group">
+      <obj_property name="label">parametros de simulacion</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/funcionamiento_completo_TB/prueba_n" type="other">
+         <obj_property name="ElementShortName">prueba_n</obj_property>
+         <obj_property name="ObjectShortName">prueba_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/prueba_sub_n" type="other">
+         <obj_property name="ElementShortName">prueba_sub_n</obj_property>
+         <obj_property name="ObjectShortName">prueba_sub_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/simulacion_de_pulsos_completa" type="other">
+         <obj_property name="ElementShortName">simulacion_de_pulsos_completa</obj_property>
+         <obj_property name="ObjectShortName">simulacion_de_pulsos_completa</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/word_wait" type="other">
+         <obj_property name="ElementShortName">word_wait</obj_property>
+         <obj_property name="ObjectShortName">word_wait</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/baud_rate" type="other">
+         <obj_property name="ElementShortName">baud_rate</obj_property>
+         <obj_property name="ObjectShortName">baud_rate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/clk_freq" type="other">
+         <obj_property name="ElementShortName">clk_freq</obj_property>
+         <obj_property name="ObjectShortName">clk_freq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/c" type="other">
+         <obj_property name="ElementShortName">c</obj_property>
+         <obj_property name="ObjectShortName">c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/a" type="other">
+         <obj_property name="ElementShortName">a</obj_property>
+         <obj_property name="ObjectShortName">a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/N" type="other">
+         <obj_property name="ElementShortName">N</obj_property>
+         <obj_property name="ObjectShortName">N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/b" type="other">
+         <obj_property name="ElementShortName">b</obj_property>
+         <obj_property name="ObjectShortName">b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/funcionamiento_completo_TB/d_width" type="other">
+         <obj_property name="ElementShortName">d_width</obj_property>
+         <obj_property name="ObjectShortName">d_width</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

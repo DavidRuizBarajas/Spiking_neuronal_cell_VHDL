@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/states_debug.vhd" \
+"../../../../../SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/input_detector.vhd" \
+"../../../../../SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/neuronal_cell_debug.vhd" \
+"../../../../../SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/uart.vhd" \
+"../../../../neuronal_cell_debug.srcs/sim_1/imports/debug simulaciones/funcionamiento_completo_debug_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_3_vivado_default" LaunchDir="C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/neuronal_cell_10/neuronal_cell_10.runs/synth_3_vivado_default" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_7" LaunchDir="C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/neuronal_cell_10/neuronal_cell_10.runs/impl_7" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_3_vivado_default"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../neuronal_cell.srcs/sources_1/imports/SOURCES_standalone/input_detector.vhd" \
+"../../../../neuronal_cell.srcs/sources_1/imports/SOURCES_standalone/states_debug.vhd" \
+"../../../../neuronal_cell.srcs/sources_1/imports/SOURCES_standalone/uart.vhd" \
+"../../../../neuronal_cell.srcs/sources_1/imports/SOURCES_standalone/neuronal_cell.vhd" \
+"../../../../neuronal_cell.srcs/sim_1/imports/simulation sources/uart_basico_TB.vhd" \
+"../../../../neuronal_cell.srcs/sim_1/imports/simulation sources/detectores_TB.vhd" \
+"../../../../neuronal_cell.srcs/sim_1/imports/simulation sources/funcionamiento_completo_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1611164287">
+  <File Type="BITSTR-BMM" Name="spiking_Web_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="spiking_Web_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="spiking_Web_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="spiking_Web_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="spiking_Web.tcl"/>
+  <File Type="OPT-TIMING" Name="spiking_Web_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="spiking_Web_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="spiking_Web_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="spiking_Web_reports.tcl"/>
+  <File Type="OPT-DRC" Name="spiking_Web_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="spiking_Web.hwdef"/>
+  <File Type="PWROPT-DCP" Name="spiking_Web_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="spiking_Web_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="spiking_Web_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="spiking_Web_placed.dcp"/>
+  <File Type="PLACE-IO" Name="spiking_Web_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="spiking_Web_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="spiking_Web_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="spiking_Web_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="spiking_Web_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="spiking_Web_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="spiking_Web_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="spiking_Web.bgn"/>
+  <File Type="PLACE-TIMING" Name="spiking_Web_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="spiking_Web_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="spiking_Web.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="spiking_Web_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="spiking_Web_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="spiking_Web_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="spiking_Web.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="spiking_Web_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="spiking_Web_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="spiking_Web_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="spiking_Web_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="spiking_Web_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="spiking_Web_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="spiking_Web.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="spiking_Web_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="spiking_Web.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="spiking_Web_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="spiking_Web_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="spiking_Web.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="spiking_Web_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="spiking_Web_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="spiking_Web_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="spiking_Web_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="spiking_Web_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="spiking_Web_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="spiking_Web_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="spiking_Web_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="spiking_Web_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="spiking_Web_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="spiking_Web_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="spiking_Web_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="spiking_Web_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="spiking_Web_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="spiking_Web_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="spiking_Web_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="spiking_Web_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="spiking_Web_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="spiking_Web_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="spiking_Web.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="spiking_Web_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="spiking_Web.rbt"/>
+  <File Type="BITSTR-NKY" Name="spiking_Web.nky"/>
+  <File Type="BG-DRC" Name="spiking_Web.drc"/>
+  <File Type="RDI-RDI" Name="spiking_Web.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/input_detector.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/input_detector.vhd"/>
+        <Attr Name="ImportTime" Val="1603623257"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/states_debug.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/states_debug.vhd"/>
+        <Attr Name="ImportTime" Val="1599041301"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/neuronal_cell.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/neuronal_cell.vhd"/>
+        <Attr Name="ImportTime" Val="1608727099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/uart.vhd"/>
+        <Attr Name="ImportTime" Val="1598884771"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources vhdl/spiking_Web.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/sources vhdl/spiking_Web.vhd"/>
+        <Attr Name="ImportTime" Val="1608727152"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="spiking_Web"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constrains basys3/red_neuronal_10entradas.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SOURCES_standalone/sources y simulaciones/constrains basys3/red_neuronal_10entradas.xdc"/>
+        <Attr Name="ImportTime" Val="1611151943"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Performance_Explore" Flow="Vivado Implementation 2019">
+      <Desc>Uses multiple algorithms for optimization, placement, and routing to get potentially better results.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

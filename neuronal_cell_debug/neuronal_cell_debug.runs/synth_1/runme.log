@@ -1,0 +1,517 @@
+
+*** Running vivado
+    with args -log neuronal_cell.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source neuronal_cell.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source neuronal_cell.tcl -notrace
+Command: synth_design -top neuronal_cell -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16004 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 830.371 ; gain = 178.793
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'neuronal_cell' [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/neuronal_cell_debug.vhd:84]
+	Parameter N bound to: 2 - type: integer 
+	Parameter ID bound to: 0 - type: integer 
+	Parameter L bound to: 10 - type: integer 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 19200 - type: integer 
+INFO: [Synth 8-3491] module 'input_detector' declared at 'C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/input_detector.vhd:34' bound to instance 'holderx' of component 'input_detector' [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/neuronal_cell_debug.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'input_detector' [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/input_detector.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'input_detector' (1#1) [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/input_detector.vhd:41]
+INFO: [Synth 8-3491] module 'input_detector' declared at 'C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/input_detector.vhd:34' bound to instance 'holderx' of component 'input_detector' [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/neuronal_cell_debug.vhd:221]
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 19200 - type: integer 
+	Parameter os_rate bound to: 8 - type: integer 
+	Parameter d_width bound to: 8 - type: integer 
+	Parameter parity bound to: 1 - type: integer 
+	Parameter parity_eo bound to: 1'b0 
+INFO: [Synth 8-3491] module 'uart' declared at 'C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/uart.vhd:27' bound to instance 'uartx' of component 'uart' [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/neuronal_cell_debug.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'uart' [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/uart.vhd:53]
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 19200 - type: integer 
+	Parameter os_rate bound to: 8 - type: integer 
+	Parameter d_width bound to: 8 - type: integer 
+	Parameter parity bound to: 1 - type: integer 
+	Parameter parity_eo bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'uart' (2#1) [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/uart.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'neuronal_cell' (3#1) [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/SOURCES_standalone/DEBUG source y simulacion/debug vhdl sources/neuronal_cell_debug.vhd:84]
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[31] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[30] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[29] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[28] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[27] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[26] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[25] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[24] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[23] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[22] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[21] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[20] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[19] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[18] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[17] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[16] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[15] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[14] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[13] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[12] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[11] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[10] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[9] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[8] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[7] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[6] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[5] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[4] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port t_blocks[2] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 894.484 ; gain = 242.906
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 894.484 ; gain = 242.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 894.484 ; gain = 242.906
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/neuronal_cell_debug/neuronal_cell_debug.srcs/constrs_1/imports/constrains basys3/single_cell.xdc]
+Finished Parsing XDC File [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/neuronal_cell_debug/neuronal_cell_debug.srcs/constrs_1/imports/constrains basys3/single_cell.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/neuronal_cell_debug/neuronal_cell_debug.srcs/constrs_1/imports/constrains basys3/single_cell.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/neuronal_cell_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/neuronal_cell_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1027.234 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1027.234 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1027.234 ; gain = 375.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1027.234 ; gain = 375.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1027.234 ; gain = 375.656
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'actual_reg' in module 'neuronal_cell'
+INFO: [Synth 8-5546] ROM "transmit_blocks" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "end_instruction" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             reset_iddle |                            01011 |                            00000
+         working_stopped |                            01101 |                            00010
+             config_init |                            01110 |                            00110
+               wait_init |                            10011 |                            00111
+        wait_instruction |                            00111 |                            01000
+         set_instruction |                            10100 |                            01001
+      intruction_routing |                            10001 |                            01010
+              end_config |                            10010 |                            10101
+            wait_read_8b |                            00101 |                            01011
+               save_8bit |                            00011 |                            01100
+          buffer_refresh |                            00000 |                            01110
+           execute_write |                            00001 |                            01101
+                 send_8b |                            00100 |                            01111
+            wait_sending |                            10000 |                            10000
+   send_instruction_done |                            00010 |                            10001
+       wait_sending_done |                            01000 |                            10010
+      instruction_driver |                            00110 |                            10011
+           notmatch_wait |                            01100 |                            10100
+                soft_rst |                            01111 |                            00001
+   holder_pointer_driver |                            01010 |                            00100
+             voltage_sum |                            01001 |                            00011
+            voltage_leak |                            10101 |                            00101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'actual_reg' using encoding 'sequential' in module 'neuronal_cell'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1027.234 ; gain = 375.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---XORs : 
+	   9 Input      1 Bit         XORs := 1     
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 3     
+	               15 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 15    
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 8     
+	  10 Input      8 Bit        Muxes := 1     
+	  22 Input      8 Bit        Muxes := 1     
+	  22 Input      5 Bit        Muxes := 1     
+	  48 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 5     
+	  16 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 13    
+	  16 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 72    
+	   3 Input      1 Bit        Muxes := 10    
+	  16 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 12    
+	   6 Input      1 Bit        Muxes := 18    
+	   5 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 6     
+	  14 Input      1 Bit        Muxes := 16    
+	  15 Input      1 Bit        Muxes := 2     
+	  22 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module neuronal_cell 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 3     
+	               15 Bit    Registers := 1     
+	                8 Bit    Registers := 14    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   3 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 8     
+	  10 Input      8 Bit        Muxes := 1     
+	  22 Input      8 Bit        Muxes := 1     
+	  22 Input      5 Bit        Muxes := 1     
+	  48 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  16 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 13    
+	  16 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 58    
+	   3 Input      1 Bit        Muxes := 10    
+	  16 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 12    
+	   6 Input      1 Bit        Muxes := 18    
+	   5 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 6     
+	  14 Input      1 Bit        Muxes := 16    
+	  15 Input      1 Bit        Muxes := 2     
+	  22 Input      1 Bit        Muxes := 1     
+Module uart 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   9 Input      1 Bit         XORs := 1     
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 14    
+Module input_detector 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[31] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[30] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[29] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[28] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[27] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[26] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[25] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[24] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[23] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[22] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[21] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[20] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[19] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[18] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[17] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[16] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[15] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[14] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[13] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[12] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[11] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[10] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[9] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[8] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[7] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[6] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[5] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port leak_p_debug[4] driven by constant 0
+WARNING: [Synth 8-3917] design neuronal_cell has port t_blocks[2] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1027.234 ; gain = 375.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1027.234 ; gain = 375.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1066.152 ; gain = 414.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    26|
+|3     |LUT1   |    14|
+|4     |LUT2   |    92|
+|5     |LUT3   |    34|
+|6     |LUT4   |    81|
+|7     |LUT5   |    81|
+|8     |LUT6   |   207|
+|9     |MUXF7  |     7|
+|10    |FDCE   |   237|
+|11    |FDPE   |    43|
+|12    |IBUF   |     8|
+|13    |IOBUF  |     1|
+|14    |OBUF   |   125|
+|15    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------+-----------------+------+
+|      |Instance                  |Module           |Cells |
++------+--------------------------+-----------------+------+
+|1     |top                       |                 |   958|
+|2     |  \detectores[0].holderx  |input_detector   |    11|
+|3     |  \detectores[1].holderx  |input_detector_0 |    23|
+|4     |  uartx                   |uart             |   307|
++------+--------------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1067.160 ; gain = 282.832
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1067.160 ; gain = 415.582
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1083.051 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1083.051 ; gain = 684.965
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1083.051 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/neuronal_cell_debug/neuronal_cell_debug.runs/synth_1/neuronal_cell.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file neuronal_cell_utilization_synth.rpt -pb neuronal_cell_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  6 18:41:19 2021...

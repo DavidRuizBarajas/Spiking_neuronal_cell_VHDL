@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 20 18:43:06 2021
+# Process ID: 21388
+# Current directory: C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/red_neuronal_pulsante/red_neuronal_pulsante.runs/impl_2
+# Command line: vivado.exe -log spiking_Web.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source spiking_Web.tcl -notrace
+# Log file: C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/red_neuronal_pulsante/red_neuronal_pulsante.runs/impl_2/spiking_Web.vdi
+# Journal file: C:/Users/David/Desktop/TFG VHDL versiones/23_12_2020/red_neuronal_pulsante/red_neuronal_pulsante.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source spiking_Web.tcl -notrace
